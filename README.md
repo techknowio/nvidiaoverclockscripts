@@ -60,7 +60,10 @@ By starting ethminer in a logged screen session we can grab the log file, parse 
 
 api.php is the script that inserts or updates the sql database (gpuMiners.db)
 
-index.php is a simple table display of the miners work.
+index.php is a simple table display of the miners work.<br />
+![alt text](https://raw.githubusercontent.com/techknowio/nvidiaoverclockscripts/master/table.png)<br />
+
+
 
 You want to make sure to put runhash.sh into a cronjob and run it every minute, so your stats are never more then a minute old.
 
