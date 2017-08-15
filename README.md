@@ -69,6 +69,7 @@ downUpdater.php runs every minute in a cronjob and sets a miners status to down 
 included in index.php is the tripplite snmpset to shut off a plug, You could have your monitor machine shoot the node in the head to have it come back online again, right now we aren't doing this.
 
 #Swag
+
 If you find ANY of this useful you could drop me some BTC or ETH:
 
 BTC: 1DYvxdfZNkv8QZshtLeRdyYtiTU1FxKGy5<br/>
