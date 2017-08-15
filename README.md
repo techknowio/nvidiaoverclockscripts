@@ -6,15 +6,15 @@ I use: Option         "Coolbits" "31"
 
 Here is an exmaple of one of my devices:<br />
 Section "Device"<br />
-    Identifier     "Device0"<br />
-    Driver         "nvidia"<br />
-    VendorName     "NVIDIA Corporation"<br />
-    BoardName      "GeForce GTX 1070"<br />
-    BusID          "PCI:1:0:0"<br />
-    Option         "CustomEDID" "DFP-0:/etc/X11/edid.bin"<br />
-    Option         "ConnectedMonitor" "DFP-0"<br />
-    Option         "Coolbits" "31"<br />
-    Option  "RegistryDwords" "PowerMizerEnable=0x1; PerfLevelSrc=0x2222; PowerMizerDefaultAC=0x1"<br />
+&nbsp;&nbsp;&nbsp;Identifier     "Device0"<br />
+&nbsp;&nbsp;&nbsp;Driver         "nvidia"<br />
+&nbsp;&nbsp;&nbsp;VendorName     "NVIDIA Corporation"<br />
+&nbsp;&nbsp;&nbsp;BoardName      "GeForce GTX 1070"<br />
+&nbsp;&nbsp;&nbsp;BusID          "PCI:1:0:0"<br />
+&nbsp;&nbsp;&nbsp;Option         "CustomEDID" "DFP-0:/etc/X11/edid.bin"<br />
+&nbsp;&nbsp;&nbsp;Option         "ConnectedMonitor" "DFP-0"<br />
+&nbsp;&nbsp;&nbsp;Option         "Coolbits" "31"<br />
+&nbsp;&nbsp;&nbsp;Option  "RegistryDwords" "PowerMizerEnable=0x1; PerfLevelSrc=0x2222; PowerMizerDefaultAC=0x1"<br />
 EndSection<br />
 
 2.  You have to be using an older version of the nvidia drivers (nvidia removed overclock ability) 375 should work.
