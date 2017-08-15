@@ -1,4 +1,4 @@
-# nvidiaoverclockscripts
+# NVIDIA Overclock Scripts
 A couple of scripts I use to overclock the nvidia 1070 cards for Ethereum, I can't take full credit for these.  I found and then modified the scripts.  Couple of important notes.
 
 1.  Make sure you have coolbits set in your xorg.conf 
@@ -46,13 +46,13 @@ We use a custom Debian 9 that PXE boots (I hope to post this image later)
 
 10.  overclock.sh performs the overclock, These are the most optimal settings I have found and have had rigs up for weeks on this -200 GPU and +1200 memory, if you happen to have a card with Samsung memory you can probably push the mem clock a bit further.
 
-11.  Start ethminer (included a compiled debian 9 version of ethminer):
-	sha256 - 8943de02b0b548611b08c7aa1f9198198413418046091bf0d113f8483b1810f2  /home/john/ethminer.tar.bz2
-	sha1 - 07580ef243af500ee5294061926b48d999697d6e  /home/john/ethminer.tar.bz2
-	sha512 - 21d5ba726eb8aa2fadf0de24af9a37fd80fba738ce5837304759ed15786bac838a1bdef030e224cba32fee1243376cee496c361b4c8df83bb543a456318d2555  /home/john/ethminer.tar.bz2
-	md5sum - c5fc5485300adea00b8e7b05ea91790c  /home/john/ethminer.tar.bz2
+11.  Start ethminer (included a compiled debian 9 version of ethminer):<br />
+	sha256 - 8943de02b0b548611b08c7aa1f9198198413418046091bf0d113f8483b1810f2  /home/john/ethminer.tar.bz2<br />
+	sha1 - 07580ef243af500ee5294061926b48d999697d6e  /home/john/ethminer.tar.bz2<br />
+	sha512 - 21d5ba726eb8aa2fadf0de24af9a37fd80fba738ce5837304759ed15786bac838a1bdef030e224cba32fee1243376cee496c361b4c8df83bb543a456318d2555  /home/john/ethminer.tar.bz2<br />
+	md5sum - c5fc5485300adea00b8e7b05ea91790c  /home/john/ethminer.tar.bz2<br />
 
-#Remote Monitoring.
+# Remote Monitoring
 
 Remotely monitoring ethminer, is kind of a pain (no included API).  but we do have a solution.
 
@@ -70,9 +70,8 @@ included in index.php is the tripplite snmpset to shut off a plug, You could hav
 
 If you find ANY of this useful you could drop me some BTC or ETH:
 
-BTC: 1DYvxdfZNkv8QZshtLeRdyYtiTU1FxKGy5
-
-ETH: C352455DbA90d0520A7667f8aBfd270b2943DDf2
+BTC: 1DYvxdfZNkv8QZshtLeRdyYtiTU1FxKGy5<br/>
+ETH: C352455DbA90d0520A7667f8aBfd270b2943DDf2<br />
 
 
 --John
