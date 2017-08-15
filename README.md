@@ -4,18 +4,18 @@ A couple of scripts I use to overclock the nvidia 1070 cards for Ethereum, I can
 1.  Make sure you have coolbits set in your xorg.conf 
 I use: Option         "Coolbits" "31"
 
-Here is an exmaple of one of my devices:
-Section "Device"
-    Identifier     "Device0"
-    Driver         "nvidia"
-    VendorName     "NVIDIA Corporation"
-    BoardName      "GeForce GTX 1070"
-    BusID          "PCI:1:0:0"
-    Option         "CustomEDID" "DFP-0:/etc/X11/edid.bin"
-    Option         "ConnectedMonitor" "DFP-0"
-    Option         "Coolbits" "31"
-    Option  "RegistryDwords" "PowerMizerEnable=0x1; PerfLevelSrc=0x2222; PowerMizerDefaultAC=0x1"
-EndSection
+Here is an exmaple of one of my devices:<br />
+Section "Device"<br />
+    Identifier     "Device0"<br />
+    Driver         "nvidia"<br />
+    VendorName     "NVIDIA Corporation"<br />
+    BoardName      "GeForce GTX 1070"<br />
+    BusID          "PCI:1:0:0"<br />
+    Option         "CustomEDID" "DFP-0:/etc/X11/edid.bin"<br />
+    Option         "ConnectedMonitor" "DFP-0"<br />
+    Option         "Coolbits" "31"<br />
+    Option  "RegistryDwords" "PowerMizerEnable=0x1; PerfLevelSrc=0x2222; PowerMizerDefaultAC=0x1"<br />
+EndSection<br />
 
 2.  You have to be using an older version of the nvidia drivers (nvidia removed overclock ability) 375 should work.
 
@@ -71,6 +71,7 @@ included in index.php is the tripplite snmpset to shut off a plug, You could hav
 If you find ANY of this useful you could drop me some BTC or ETH:
 
 BTC: 1DYvxdfZNkv8QZshtLeRdyYtiTU1FxKGy5
+
 ETH: C352455DbA90d0520A7667f8aBfd270b2943DDf2
 
 
